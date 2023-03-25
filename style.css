@@ -1,0 +1,80 @@
+header {
+  background: #8be8f5;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 118px 50px 118px;
+}
+
+.logo {
+  height: 37px;
+}
+
+.nav-list {
+  display: flex;
+  gap: 51px;
+
+  font-family: "BPG Glaho";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+}
+
+.home-nav-item {
+  color: #f90909;
+}
+
+.nav-item {
+  color: #ffef5e;
+}
+.course-description-box {
+  background: rgba(242, 155, 244, 0.37);
+  padding: 28px 118px 28px 118px;
+}
+
+.course-description-box > h3 {
+  margin-bottom: 25px;
+  font-family: "BPG Glaho";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 42px;
+
+  color: #750606;
+}
+.course-description-box > p {
+  font-family: "Arial GEO";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+
+  color: #410e0e;
+}
+
+.course-description-box > p > span {
+  font-weight: bold;
+}
+.img-list-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  padding: 70px 118px 70px 118px;
+}
+.img-list-box > div > h6 {
+  font-family: "Arial GEO";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #ee4036;
+}
+footer {
+  background-color: #ffef5e;
+  display: flex;
+  justify-content: center;
+  padding: 36px;
+  gap: 40px;
+}
